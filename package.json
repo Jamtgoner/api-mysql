@@ -1,8 +1,12 @@
 {
   "name": "api-mysql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Incluye las dependencias que uso para crear una API REST con Node.js y MySQL.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jamtgoner/api-mysql"
+  },
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "start": "node ./src/index.js"
